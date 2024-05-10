@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0s;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+/*Navigation bar */
+
+.logo {
+  max-width: 100px;
+  min-width: 50px;
+}
+
+.logo a {
+  font-weight: 600;
+  max-width: 100px;
+  min-width: 50px;
+}
+
+.navbar {
+  padding: 10px;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .menu ul {
+  display: flex;
+}
+
+.navbar ul li a {
+ padding: 8px 20px;
+ display: block;
+ font-weight: 600;
+}
+
+.navbar ul li a:hover{
+  text-decoration: underline;
+}
+
+.navbar .loginbutton {
+  border: solid 2px;
+  border-radius: 15px;
+  margin-left: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+/*container-sec1*/
+
+.container-sec1 {
+  margin: 30px auto;
+  max-width: 1100px;
+  padding: 20px;
+  height: 250px;
+  background-color: aliceblue;
+}
+
+.container-sec1-content{
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.container-sec1 h1 {
+  font-size: 1.8rem;
+  line-height: 1.1;
+  font-weight: bold;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.container-sec1 p {
+  max-width: 80%;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.container-sec1-button {
+  background-color: #405cf5;
+  border-radius: 10px;
+  margin-top: 40px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-sec1-button a {
+  color: white;
+}
+
+.container-sec1-image {
+  float: right;
+}
+
+.container-sec1-image img{
+  object-fit: contain;
+  width: 300px;
+  height: auto;
+}
+
+/* about - footer */
+
+.about-footer {
+  background-color: rgb(187, 208, 226);
+  width: 100%;
+  position: relative;
+  min-height: 40vh;
+}
+
+.about-footer content {
+  color: black;
+}
+
+.about-footer h1 {
+  padding: 20px 0;
+}
+
+.about-footer p {
+  padding: 0 15%;
+}
+
+.footer-button {
+  padding: 20px 0;
+}
+
+.about-container {
+  text-align: center;
+  padding: 20px 70px;
+}
+
+.footer-menu {
+  display: flex;
+  padding: 0 0 30px;
+  justify-content: center;
+}
+
+.footer-menu ul {
+  display: flex;
+}
+
+#item-1,
+#item-2,
+#item-3 {
+  border-right: 1px solid black;
+}
+
+.footer-menu ul li a {
+ padding: 5px 70px;
+ display: block;
+}
+
+.footer-copyright {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
