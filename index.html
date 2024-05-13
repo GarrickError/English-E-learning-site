@@ -3,46 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
+    <title>StudyStream</title>
     <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
 
     <nav class="navbar">
         <div class="container">
-            <div  class="logo">
-                <a href="index.html">
-                    <img src="Image/logo.jpg" alt="Logo" class="logo"> StudyStream
-                </a>
-            </div>
+
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="Image/logo.jpg" alt="Logo" class="logo"> StudyStream
+                    </a>
+                </div>
             
-            <div class="menu">
+            <div class="menu">  
                 <ul>
                     <li>
-                        <a href="#Course">Course</a>
+                        <a id ="courses" href="#Course">Course</a>
                     </li>
                     <li>
-                        <a href="#Quiz">Quiz</a>
+                        <a id ="quiz" href="#Quiz">Quiz</a>
                     </li>
                     <li>
-                        <a href="#Progress">Progress</a>
+                        <a id ="progress" href="#Progress">Progress</a>
                     </li>
                     <li>
-                        <a href="#Resources">Resources</a>
+                        <a id ="resources" href="#Resources">Resources</a>
                     </li>
                     <li>
-                        <a href="#About">About</a>
+                        <a id ="about" href="#About">About</a>
                     </li>
                     <li>
-                        <a class = loginbutton href="#">Log in</a>
+                        <a id="login" class=loginbutton href="#">Log in</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-</head>
-
-<body>
-        <section id="Course">
+        <section>
             <div class="container-sec1">
                 <div class="container-sec1-image">
                     <img src="Image/course.jpg" alt="sec1-image">
@@ -56,13 +58,13 @@
                         our expertly crafted lessons cater to all levels.
                     </p>
                     <div class="container-sec1-button">
-                        <a href="#">Explore</a>
+                        <a href="#" id="Course">Explore</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="Quiz">
+        <section>
             <div class="container-sec1">
                 <div class="container-sec1-image">
                     <img src="Image/course.jpg" alt="sec1-image">
@@ -76,13 +78,13 @@
                         and test your understanding of the English language.
                     </p>
                     <div class="container-sec1-button">
-                        <a href="#">Explore</a>
+                        <a href="#" id="Quiz">Explore</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="Progress">
+        <section>
             <div class="container-sec1">
                 <div class="container-sec1-image">
                     <img src="Image/course.jpg" alt="sec1-image">
@@ -96,13 +98,13 @@
                         learning English and stay motivated throughout your language learning journey. 
                     </p>
                     <div class="container-sec1-button">
-                        <a href="#">Explore</a>
+                        <a href="#" id="Progress">Explore</a>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="Resources">
+        <section>
             <div class="container-sec1">
                 <div class="container-sec1-image">
                     <img src="Image/course.jpg" alt="sec1-image">
@@ -116,13 +118,13 @@
                         Our resource library is filled with valuable materials
                     </p>
                     <div class="container-sec1-button">
-                        <a href="#">Explore</a>
+                        <a href="#" id="Resources">Explore</a>
                     </div>
                 </div>
             </div>
         </section>
 
-         <footer id="About" class = "about-footer">
+         <footer class = "about-footer">
 
             <div class = "about-container">
                 <div>
@@ -132,29 +134,29 @@
                 </div>
                 <div>
                     <p>
-                        Our team is passionate about helping individuals around the world achieve their language learning goals. 
-                        With a team of dedicated language experts and educators, we strive to provide high-quality, interactive, 
-                        and engaging English language courses that cater to learners of all levels.
+                        Our team is passionate about helping individuals with visual impaired around the world achieve their language learning goals. 
+                        With a team of dedicated language experts and educators, we provide website with keyboard-accessibility service and features to assist disability for easier operation, 
+                        we also strive to provide high-quality, interactive, and engaging English language courses that cater to learners of all levels.
                     </p>
                 </div>
                 <div class = "footer-button">
-                    <a href="#">Learn More ></a>
+                    <a href="" id="About" >Learn More ></a>
                 </div>
             </div>
 
             <div class="footer-menu">
                 <ul>
                     <li id="item-1">
-                        <a href="#"><ion-icon name="folder-open-outline"></ion-icon>Course</a>
+                        <a><ion-icon class ="icon" name="folder-open-outline"></ion-icon>Course</a>
                     </li>
                     <li id="item-2">
-                        <a href="#"><ion-icon name="reader-outline"></ion-icon></ion-icon>Quiz</a>
+                        <a><ion-icon class ="icon" name="reader-outline"></ion-icon></ion-icon>Quiz</a>
                     </li>
                     <li id="item-3">
-                        <a href="#"><ion-icon name="stats-chart-outline"></ion-icon>Progress</a>
+                        <a><ion-icon class ="icon" name="stats-chart-outline"></ion-icon>Progress</a>
                     </li>
                     <li>
-                        <a href="#"><ion-icon name="people-circle-outline"></ion-icon>Resources</a>
+                        <a><ion-icon class ="icon" name="people-circle-outline"></ion-icon>Resources</a>
                     </li>
                 </ul>
             </div>
@@ -165,6 +167,9 @@
             </div>
 
          </footer>
+
+         <script src="script/reader.js"></script>
+
 </body>
 
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
