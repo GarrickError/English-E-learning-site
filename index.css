@@ -4,6 +4,10 @@
   padding: 0s;
 }
 
+:focus {
+  outline-color: red;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -51,10 +55,6 @@ ul {
  padding: 8px 20px;
  display: block;
  font-weight: 600;
-}
-
-.navbar ul li a:hover{
-  text-decoration: underline;
 }
 
 .navbar .loginbutton {
@@ -115,6 +115,12 @@ ul {
 
 .container-sec1-button a {
   color: white;
+  height: 35px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .container-sec1-image {
@@ -174,14 +180,18 @@ ul {
 }
 
 .footer-menu ul li a {
- padding: 5px 70px;
- display: block;
+  padding: 5px 70px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-menu .icon {
+  margin-right: 3px;
 }
 
 .footer-copyright {
+  padding: 20px;
   text-align: center;
-  position: absolute;
   bottom: 0;
   width: 100%;
-  padding: 20px;
 }
